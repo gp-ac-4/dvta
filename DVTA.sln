@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Windows Desktop
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVTA", "DVTA\DVTA.csproj", "{18477C04-8C5A-4B08-92E4-5474F72B60A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBAccess", "DBAccess\DBAccess.csproj", "{427359AA-A146-475E-9B20-265897AA2442}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB", "..\..\..\3rdParty\dvta\DB\DB.csproj", "{AABE19A2-4C5C-4506-853B-9F7BF75433CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,8 +23,15 @@ Global
 		{427359AA-A146-475E-9B20-265897AA2442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{427359AA-A146-475E-9B20-265897AA2442}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{427359AA-A146-475E-9B20-265897AA2442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AABE19A2-4C5C-4506-853B-9F7BF75433CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABE19A2-4C5C-4506-853B-9F7BF75433CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABE19A2-4C5C-4506-853B-9F7BF75433CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABE19A2-4C5C-4506-853B-9F7BF75433CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5A18F78-4D51-405B-9039-8044FEA114D8}
 	EndGlobalSection
 EndGlobal
